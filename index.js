@@ -1,9 +1,9 @@
 'use strict';
 /* global $ */
 
-const TRIVIA_API_URL = 'https://opentdb.com/api.php?amount=1&category=16&difficulty=easy&type=multiple';
+const BASE_API_URL = 'https://opentdb.com/api.php?amount=1&category=16&difficulty=easy&type=multiple';
 
-const TRIVIA_API_SESSION_TOKEN_REQUEST = 'https://opentdb.com/api_token.php?command=request';
+const _SESSION_TOKEN_REQUEST_URL = 'https://opentdb.com/api_token.php?command=request';
 
 const SESSION_TOKEN = '';
 
@@ -117,7 +117,6 @@ function changeButton() {
     $('.next').remove();
     handleNextClick();
   }
-
 
 }
 
