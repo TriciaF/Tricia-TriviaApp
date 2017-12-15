@@ -1,32 +1,43 @@
-body,
-html {
-    height: 100%;
-    margin: 0;
-    background-image: url(https://i.imgur.com/VVPN0Xv.jpg);
+body {
+    background-image: url(https://i.imgur.com/nYtLwxP.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+html {
+    height: 100%;
+    margin: 0;
+}
+
 header {
-    text-align: center;
-    font: Sans serif;
-    color: #FF8C00;
-    text-shadow: 2px 2px black;
-    margin-top: 60px;
-    margin-bottom: 60px
+    margin-top: 30px;
+    margin-bottom: 30px
 }
 
 h1 {
     font-size: 60px;
+    text-align: center;
+    font: Sans serif;
+    color: #FF8C00;
+    text-shadow: 2px 2px black;
 }
 
 h2 {
     font-size: 50px;
+    text-align: center;
+    font: Sans serif;
+    color: #FF8C00;
+    text-shadow: 2px 2px black;
 }
 
 h3 {
-    margin-top: 50px;
+    margin-top: 20px;
+}
+
+.buttonControl,
+.triviaSelection {
+    text-align: center;
 }
 
 .startQuiz,
@@ -59,15 +70,15 @@ h3 {
 .results {
     border: 2px solid black;
     margin: 70px auto;
-    height: 350px;
+    height: 300px;
     width: 500px;
     background-color: #F5F5DC;
     border-radius: 25px
 }
 
 form {
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -83,8 +94,8 @@ p {
 
 input {
     position: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: 30px;
     font-size: 20px;
 }
